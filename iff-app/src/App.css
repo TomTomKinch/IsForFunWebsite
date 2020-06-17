@@ -1,0 +1,57 @@
+.App {
+  background-color: #282c36;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #127001;
+}
+
+.ham-icon {
+  padding-left: 10px;
+}
+
+.IFF-logo {
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 170px;
+  width: 170px;
+  pointer-events: none;
+}
+
+.Title {
+  /* color:#1bbf02; light green*/ 
+  color: #ffffff;
+  font-size: 60px;
+  font-family: Impact, Charcoal, sans-serif; 
+  display: center;
+}
+
+.App-footer {
+  background-color: #127001;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 0;
+  position: absolute;
+  height: 30px;
+  width: 100%;
+}
+.footer-info{
+  color: #ffffff;
+}
+
+/* Rotation stuff */
+/* @media (prefers-reduced-motion: no-preference) {
+  .IFF-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+} */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
