@@ -1,31 +1,43 @@
 .App {
   background-color: #282c36;
-  position: relative;
   min-height: 100vh;
 }
 
 .App-header {
   background-color: #127001;
+  position: relative;
+  overflow: "wrap";
+  padding-bottom: 160px;
 }
 
-.ham-icon {
-  padding-left: 10px;
+.Ham-icon {
+  margin-left: 10px;
+  margin-top: 60px;
+  padding: 10px;
+  float: left;
+  transition: filter 300ms;
+  background-color: #127001;
+}
+
+.Ham-icon:hover {
+  filter: grayscale(50%);
 }
 
 .IFF-logo {
-  padding-top: 20px;
+  height: 120px;
+  width: 120px;
+  padding-right: 20px;
   padding-left: 20px;
-  height: 170px;
-  width: 170px;
+  padding-top: 20px;
   pointer-events: none;
+  float: left;
 }
 
-.Title {
-  /* color:#1bbf02; light green*/ 
+.Title{
   color: #ffffff;
-  font-size: 60px;
-  font-family: Impact, Charcoal, sans-serif; 
-  display: center;
+  font-size: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+  float: left;
 }
 
 .App-footer {
@@ -37,8 +49,9 @@
   height: 30px;
   width: 100%;
 }
-.footer-info{
+.Footer-info{
   color: #ffffff;
+  text-align: center;
 }
 
 /* Rotation stuff */
