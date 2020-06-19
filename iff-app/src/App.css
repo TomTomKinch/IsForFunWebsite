@@ -20,7 +20,8 @@
 }
 
 .Ham-icon:hover {
-  filter: grayscale(50%);
+  background-color: #0b4601;
+  cursor: pointer;
 }
 
 .IFF-logo {
@@ -29,15 +30,58 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
-  pointer-events: none;
   float: left;
 }
 
-.Title{
+.IFF-logo:hover {
+  cursor: pointer;
+}
+
+.Title {
   color: #ffffff;
   font-size: 50px;
   font-family: Impact, Charcoal, sans-serif;
   float: left;
+}
+
+.HeaderOptions {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  float: right;
+  margin-top: 70px;
+  margin-right: 5px;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: #127001;
+}
+
+.HeaderOptions:hover {
+  background-color: #0b4601;
+  cursor: pointer;
+}
+
+.mic-emoji {
+  height: 50px;
+  width: 30px;
+  float: right;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.mic-emoji:hover {
+  cursor: pointer;
+}
+
+.burger-emoji {
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin-top: 60px;
+}
+
+.burger-emoji:hover {
+  cursor: pointer;
 }
 
 .App-footer {
@@ -54,17 +98,20 @@
   text-align: center;
 }
 
-/* Rotation stuff */
-/* @media (prefers-reduced-motion: no-preference) {
-  .IFF-logo {
-    animation: App-logo-spin infinite 10s linear;
+/* Small Window Styling  */
+@media (max-width: 900px) {
+
+  .HeaderOptions {
+    display: none;
   }
-} */
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  .burger-emoji {
+    margin-right: 20px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 750px) {
+  .Title {
+    display: none;
   }
-} */
+}
