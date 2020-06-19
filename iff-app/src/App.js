@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import Home from "./Home.js";
-import Podcasts from "./Podcasts.js";
-import Gnosh from "./GnoshCity.js";
+import Home from "./Pages/Home.js";
+import Podcasts from "./Pages/Podcasts.js";
+import Gnosh from "./Pages/GnoshCity.js";
 import './App.css';
 import logo from './Images/IsForFunLogoCircleSmall.png';
 import ham_icon from './Images/hamburg_icon_thin.png';

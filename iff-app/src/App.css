@@ -7,12 +7,14 @@
   background-color: #127001;
   position: relative;
   overflow: "wrap";
-  padding-bottom: 160px;
+  padding-bottom: 140px;
 }
 
 .Ham-icon {
+  height: 25px;
+  width: 30px;
   margin-left: 10px;
-  margin-top: 60px;
+  margin-top: 45px;
   padding: 10px;
   float: left;
   transition: filter 300ms;
@@ -25,8 +27,8 @@
 }
 
 .IFF-logo {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
@@ -39,9 +41,10 @@
 
 .Title {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 40px;
   font-family: Impact, Charcoal, sans-serif;
   float: left;
+  margin-top: 45px;
 }
 
 .HeaderOptions {
@@ -49,7 +52,7 @@
   font-size: 20px;
   font-family: Impact, Charcoal, sans-serif;
   float: right;
-  margin-top: 70px;
+  margin-top: 55px;
   margin-right: 5px;
   margin-right: 20px;
   padding: 5px;
@@ -65,7 +68,7 @@
   height: 50px;
   width: 30px;
   float: right;
-  margin-top: 60px;
+  margin-top: 45px;
   margin-left: 20px;
 }
 
@@ -77,7 +80,7 @@
   height: 40px;
   width: 40px;
   float: right;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .burger-emoji:hover {
@@ -99,7 +102,7 @@
 }
 
 /* Small Window Styling  */
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 
   .HeaderOptions {
     display: none;
@@ -107,10 +110,11 @@
 
   .burger-emoji {
     margin-right: 20px;
+    margin-left: 20px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   .Title {
     display: none;
   }
