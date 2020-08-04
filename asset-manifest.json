@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/IsForFunWebsite/static/css/main.00329628.chunk.css",
+    "main.js": "/IsForFunWebsite/static/js/main.6051316e.chunk.js",
+    "main.js.map": "/IsForFunWebsite/static/js/main.6051316e.chunk.js.map",
+    "runtime-main.js": "/IsForFunWebsite/static/js/runtime-main.d9a7eed9.js",
+    "runtime-main.js.map": "/IsForFunWebsite/static/js/runtime-main.d9a7eed9.js.map",
+    "static/js/2.f35de338.chunk.js": "/IsForFunWebsite/static/js/2.f35de338.chunk.js",
+    "static/js/2.f35de338.chunk.js.map": "/IsForFunWebsite/static/js/2.f35de338.chunk.js.map",
+    "index.html": "/IsForFunWebsite/index.html",
+    "precache-manifest.2eeae75e09b338a3167657866c844e9e.js": "/IsForFunWebsite/precache-manifest.2eeae75e09b338a3167657866c844e9e.js",
+    "service-worker.js": "/IsForFunWebsite/service-worker.js",
+    "static/css/main.00329628.chunk.css.map": "/IsForFunWebsite/static/css/main.00329628.chunk.css.map",
+    "static/js/2.f35de338.chunk.js.LICENSE.txt": "/IsForFunWebsite/static/js/2.f35de338.chunk.js.LICENSE.txt",
+    "static/media/IsForFunLogoCircleSmall.png": "/IsForFunWebsite/static/media/IsForFunLogoCircleSmall.6b99e940.png",
+    "static/media/burger.png": "/IsForFunWebsite/static/media/burger.955dadff.png",
+    "static/media/mic.png": "/IsForFunWebsite/static/media/mic.6da53564.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9a7eed9.js",
+    "static/js/2.f35de338.chunk.js",
+    "static/css/main.00329628.chunk.css",
+    "static/js/main.6051316e.chunk.js"
+  ]
+}
