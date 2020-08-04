@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/IsForFunWebsite/precache-manifest.2eeae75e09b338a3167657866c844e9e.js"
+  "/IsForFunWebsite/precache-manifest.fd3bcc742727389260b8ac7c949b241a.js"
 );
 
 self.addEventListener('message', (event) => {

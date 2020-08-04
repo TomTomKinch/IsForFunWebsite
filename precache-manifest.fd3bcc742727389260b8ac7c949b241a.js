@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a81edc78da556f118edc63394789757",
+    "revision": "a7a49d96a23cec7afb49c64ced1fefe5",
     "url": "/IsForFunWebsite/index.html"
   },
   {
-    "revision": "acf06cfa85554aa308fc",
-    "url": "/IsForFunWebsite/static/css/main.00329628.chunk.css"
+    "revision": "72406e2d603e9ac1784b",
+    "url": "/IsForFunWebsite/static/css/main.71f4f509.chunk.css"
   },
   {
     "revision": "ba10006b08f7573a1181",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IsForFunWebsite/static/js/2.f35de338.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "acf06cfa85554aa308fc",
+    "revision": "72406e2d603e9ac1784b",
     "url": "/IsForFunWebsite/static/js/main.6051316e.chunk.js"
   },
   {
