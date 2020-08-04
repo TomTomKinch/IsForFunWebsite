@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Home from "./Pages/Home.js";
 import Podcasts from "./Pages/Podcasts.js";
 import Gnosh from "./Pages/GnoshCity.js";
-import './App.css';
+import './Styling/App.css';
 import logo from './Images/IsForFunLogoCircleSmall.png';
 import ham_icon from './Images/hamburg_icon_thin.png';
 import burger from './Images/burger.png';
@@ -22,7 +22,7 @@ const App = () => {
           </Link>
           <p className="Title">Is For Fun Podcast</p>
           <Link to="/gnoshcity">
-            <p className="HeaderOptions">GnoshCity</p>
+            <p className="HeaderOptions">Gnosh City</p>
             <img src={burger} className="burger-emoji" alt='burger'/>
           </Link> 
           <Link to="/podcasts">

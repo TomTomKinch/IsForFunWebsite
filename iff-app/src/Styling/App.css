@@ -3,6 +3,7 @@
   min-height: 100vh;
 }
 
+/* Header */
 .App-header {
   background-color: #127001;
   position: relative;
@@ -26,7 +27,7 @@
   cursor: pointer;
 }
 
-.IFF-logo {
+.IFF-logo { 
   height: 100px;
   width: 100px;
   padding-right: 20px;
@@ -87,14 +88,38 @@
   cursor: pointer;
 }
 
+/* Body */
+.TempText {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+}
+
+.VideoContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Video { 
+  background-color: #127001;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  flex: 1 0 auto;
+}
+
+/* Footer */ 
 .App-footer {
   background-color: #127001;
   padding-top: 10px;
   padding-bottom: 10px;
-  bottom: 0;
   position: absolute;
   height: 30px;
   width: 100%;
+  /* bottom: 0; Bottom of page without flex */
+  flex-shrink: 0;
 }
 .Footer-info{
   color: #ffffff;
